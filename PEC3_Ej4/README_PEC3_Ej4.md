@@ -32,3 +32,8 @@ Aquí podemos ver la estructura de carpetas y ficheros de la carpeta **/src**
 ## Ejecutar el traspilador **tsc*
 Una vez realizado todo el trabajo, desde el terminal en la carpeta raiz de nuestro proyecto ejecutamos **tsc**
 ![tsc](img/tsc.png)
+
+## Ver el resultado
+En este caso copiamos los ficheros **index.html**y **style.css**, desde vscode abrimos el servidor virtual sobre el archivo index.htm y veremos el resultado.
+
+![resultat](img/resultat.png)
