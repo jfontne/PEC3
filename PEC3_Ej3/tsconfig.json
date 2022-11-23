@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+
+    //Aquí definim amb quina versió de javascript volem el resultat
+    "target": "es2015", 
+
+    //Aquesta opció estableix el sistema de mòduls que s'utilitzaran en els arxiuscompilats ".js"
+    "module": "commonjs",
+    
+    //Directori de sortida del fitxer js compilat
+    "outDir": "./dist",
+
+    //Carpeta on estan els fitxers inicials amb el codi nostre
+    "rootDir": "./src",
+
+    //L'opció estricta sotmetrà el vostre codi a regles més estrictes en termes de comprovació de tipus estàtic. 
+    //Més estricte vol dir més segur, així que està bé.
+    "strict": true,
+    
+    //Anirà guadant les compilacions actualitzant només les parts noves, d'aquesta manera serà més ràpid en compilar
+    //projectes molt grans.
+    "incremental": true,
+    
+    //Aquesta configuració us permet especificar un fitxer per emmagatzemar informació de compilació incremental 
+    //com a part de projectes compostos, la qual cosa permet una creació més ràpida de bases de codi de TypeScript 
+    //més grans. Podeu llegir més sobre projectes compostos al manual. Aquesta opció ofereix una manera de configurar 
+    //el lloc on TypeScript realitza un seguiment dels fitxers que emmagatzema al disc per indicar l'estat de compilació 
+    //d'un projecte; per defecte, estan a la mateixa carpeta que el vostre JavaScript emès.
+    "tsBuildInfoFile": "./buildcache",
+  }
+}
