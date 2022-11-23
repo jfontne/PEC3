@@ -13,4 +13,4 @@
 [Explicación ejercicio](PEC3_Ej3/README.md)
 
 # Ejercicio 4 – Arquitectura MVC usando TypeScript
-[Explicación ejercicio](PEC3_Ej4/README_PEC3_Ej4.md)
+[Explicación ejercicio](PEC3_Ej4/README_PEC3_Ej4.md) 
