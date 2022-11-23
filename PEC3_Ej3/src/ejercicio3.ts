@@ -3,6 +3,7 @@
 
 abstract class Animal {
     static population: number = 0;
+    name: string;
     constructor() {
         /***/
     }
