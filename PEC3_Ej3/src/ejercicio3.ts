@@ -10,8 +10,14 @@ abstract class Animal {
 }
 
 class Dog extends Animal {
+    
     color: string;
-
+    constructor(color:string){
+        super(color) = color;
+    }
+    public sound():void{
+        console.log('ladrar');
+    }
     /***/
 
     public iamadog() {
@@ -24,6 +30,10 @@ class Cat extends Animal {
     
     constructor(gender: string){
         super(gender) = gender;
+    }
+
+    public sound(): void {
+        console.log('maullar');
     }
 
     public iamacat() {
